@@ -1,0 +1,38 @@
+.logo
+{
+     background-image: url(../images/menu-icon.png);
+     background-color: transparent;
+     background-repeat: no-repeat;
+     background-position: center center;
+     position: absolute;
+     top: 50px;
+     left: 20px;
+     height: 100px;
+     width: 100px;
+     margin: flex;
+     
+}
+#new
+{
+     display: flex;
+     width: 100%;
+}
+#new>a
+{
+     
+     text-decoration: none;
+     width: 20%;
+     
+
+}
+#new>a>h4
+{
+     color: red;
+     margin-left: 100px;
+
+}
+.image
+{
+     width: 200px;
+     
+}

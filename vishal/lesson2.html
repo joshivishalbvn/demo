@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          * {
+               margin: 0px;
+               padding: 0px;
+          }
+
+          #header {
+               border: 2px solid black;
+               display: flex;
+               justify-content: space-between;
+               background-color: rgb(75, 12, 15);
+          }
+
+          #container {
+               display: flex;
+               min-height: 500px;
+          }
+
+          #footer {
+               background-color: #eeeeee;
+               padding: 20px 10px;
+               position: sticky;
+               bottom: 0px;
+               left: 0px;
+          }
+
+          #container>div {
+               border: 1px solid black;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               justify-content: space-around;
+          }
+
+          #menu {
+               width: 15%;
+               padding: 20px 0px 20px 20px;
+          }
+
+          #content {
+               width: 70%;
+          }
+
+          #sidebar {
+               width: 15%;
+
+          }
+
+          #menu>ul {
+
+               list-style-type: none;
+          }
+
+          #menu>ul>li {
+
+               padding-bottom: 20px;
+
+          }
+
+          #menu>ul>li>a {
+
+               text-decoration: none;
+          }
+
+          #header>div {
+               border: 1px solid black;
+          }
+
+          #footer>ul {
+               display: flex;
+               list-style-type: none;
+               justify-content: space-around;
+          }
+
+          #title {
+               color: white;
+               font-size: 28px;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+
+          #contact>ul {
+               list-style-type: none;
+               color: white;
+          }
+
+          #contact>ul>li {
+               font-size: 20px;
+               font-weight: bold;
+               letter-spacing: 1px;
+          }
+
+          #logo {
+               padding-top: 10px;
+               padding-right: 5px;
+          }
+     </style>
+</head>
+
+<body>
+     <div id="header">
+          <div id="logo">
+               <img src="images/builder.png" height="64">
+          </div>
+          <div id="title">
+               <h1>JR Construction</h1>
+          </div>
+          <div id="contact">
+               <ul>
+                    <li> <img src="images/call.png" height="30px">7990261005</li>
+                    <li>jrconstruction.bvn@gmail.com</li>
+               </ul>
+          </div>
+     </div>
+     <div id="container">
+          <div id="menu">
+               <ul>
+                    <li><a href="#">Home</a></li>
+                    <li> <a href="#">About Us</a></li>
+                    <li> <a href="#">Mission & Vision</a> </li>
+                    <li> <a href="#">Services</a> </li>
+                    <li> <a href="#">Contact Us</a> </li>
+               </ul>
+          </div>
+          <div id="content">
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti adipisci atque qui autem eum! Eum
+                    saepe praesentium ipsum eaque dignissimos unde. Optio placeat iure laboriosam error magnam eligendi
+                    ipsum explicabo dolorum nemo, sapiente iste voluptate vel est voluptatem veniam commodi accusantium
+                    molestias cupiditate aut nam odit neque ipsam atque. Quaerat molestias maiores veritatis fugiat,
+                    voluptas tempora facilis provident quod delectus consequatur doloribus optio accusamus distinctio in
+                    ex quasi voluptatem ab praesentium at nisi, consequuntur natus. Omnis dolorem consectetur molestias
+                    reprehenderit animi non ipsa repellendus harum, in quidem laboriosam inventore officia delectus
+                    ratione amet provident soluta qui dolor quae architecto, quos cupiditate maxime earum facere. Et
+                    unde eos inventore quasi beatae earum veniam. Illo odio veritatis voluptatem pariatur perferendis,
+                    adipisci sint commodi beatae culpa veniam obcaecati quo quia, earum voluptate ducimus itaque!
+                    Laboriosam quibusdam at dolore laudantium ut molestias doloribus, recusandae esse molestiae! Quis
+                    impedit error et quod a, aperiam ex cumque! Porro alias cupiditate obcaecati ipsa dolorem nulla
+                    labore vero officiis delectus. Quas incidunt labore fugit voluptates odio facilis? Quis aut delectus
+                    repellendus iusto cupiditate quod est hic inventore nam rerum ullam facere voluptate dolores vitae
+                    voluptas, amet enim distinctio porro id consequuntur adipisci! Consectetur, inventore quis numquam
+                    suscipit sed illo ratione, quod esse, ut sint provident dolor animi hic sapiente. Adipisci quaerat
+                    illo sunt tenetur commodi optio excepturi ipsam, eius iusto eligendi pariatur numquam, saepe
+                    molestias dolorum maiores quis ullam! Corporis deserunt, neque quaerat magni accusantium officiis
+                    natus accusamus reprehenderit cumque tempore fuga molestias explicabo veniam. Consequuntur natus
+                    perspiciatis unde, quia nam voluptatum ratione officia rem. Non necessitatibus porro aliquid dolorum
+                    !</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur saepe libero quis! Animi ea earum
+                    aliquam ducimus harum hic soluta, amet, rem commodi nam dicta. Deserunt voluptatum unde sequi
+                    doloribus, dolore ut aut reprehenderit sunt ad beatae aliquam eligendi iste odit aperiam animi
+                    debitis, quia sint! Quisquam sapiente libero nobis.</p>
+
+          </div>
+          <div id="sidebar">
+               <h1>sidebar</h1>
+          </div>
+     </div>
+
+     <div id="footer">
+          <ul>
+               <li> <a href="#">Home</a></li>
+               <li> <a href="#">About us</a> </li>
+               <li> <a href="#">Mission & Vision</a> </li>
+               <li> <a href="#"> Services <a> </li>
+               <li> <a href="#">Contact Us</a> </li>
+          </ul>
+     </div>
+
+</body>
+
+</html>
