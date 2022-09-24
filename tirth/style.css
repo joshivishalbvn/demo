@@ -1,0 +1,373 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.logo {
+    background-image: url(images/menu-icon.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    height: 100px;
+    width: 100px;
+    margin: flex;
+
+}
+
+#contactus {
+    display: flex;
+}
+
+#new {
+    display: flex;
+    width: 100%;
+}
+
+#new>a {
+
+    text-decoration: none;
+    width: 20%;
+
+
+}
+
+#new>a>h4 {
+    color: red;
+    margin-left: 100px;
+
+
+}
+
+#flavour {
+    display: flex;
+}
+
+#flavour>image>b {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+}
+
+
+.carousel>.carousel-indicators>button {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+
+}
+
+#bestseller {
+    display: flex;
+}
+
+#bestseller>image>b {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+}
+
+.box6 {
+    box-shadow: #605f5f;
+    position: relative;
+    box-shadow: #605f5f;
+}
+
+.box6:after {
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: -30%;
+    bottom: 0;
+    right: 70%;
+    transform: skew(20deg) translateX(-75%)
+}
+
+.box6:hover:after {
+    transform: skew(20deg) translateX(0)
+}
+
+.box6 img {
+    width: 100%;
+    height: auto
+}
+
+.box6:hover img {
+    opacity: .5
+}
+
+.box6 .box-content {
+    padding: 20px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1
+    
+}
+
+.box6 .icon,
+.box7 .icon {
+    padding: 0;
+    list-style: none
+}
+
+.box10 .icon li a,
+.box11,
+.box12,
+.box13,
+.box14,
+.box6 .icon li a,
+.box7,
+.box7 .icon li a,
+.box8,
+.box8 .icon li a {
+    text-align: center
+}
+
+.box6 .title {
+    font-size: 20px;
+    font-weight: 900;
+    color: red;
+    margin: 0 0 10px;
+    transform: scale(0)
+}
+
+.box6:hover .title {
+    transform: scale(1)
+}
+
+.box6 .icon li,
+.box6 .post {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all .35s ease 0s
+}
+
+.box6 .post {
+    display: block;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 5px
+}
+
+.box6 .icon {
+    display: inline-block;
+    margin: 0
+}
+
+.box6:hover .icon li,
+.box6:hover .post {
+    opacity: 1;
+    transform: translateX(0)
+}
+
+.box6:hover .icon li:first-child {
+    transition-delay: .1s
+}
+
+.box6:hover .icon li:nth-child(2) {
+    transition-delay: .2s
+}
+
+.box6 .icon li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #fff;
+    font-size: 18px;
+    color: #605f5f;
+    margin-bottom: 5px;
+    transition: all .35s ease
+}
+
+.box6 .icon li a:hover {
+    background: #605f5f;
+    color: #fff
+}
+
+@media only screen and (max-width:990px) {
+    .box6 {
+        margin-bottom: 30px
+    }
+}
+
+
+.footer {
+    background-color: #D3002B;
+    position: relative;
+    border-radius: 10px;
+    -webkit-box-shadow: -3px 0px 38px -9px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: -3px 0px 38px -9px rgba(0, 0, 0, 0.53);
+    box-shadow: -3px 0px 38px -9px rgba(0, 0, 0, 0.53);
+    padding: 30px 0px;
+    margin-top: 20px;
+    font-size: 62.5%;
+    margin-bottom: 5px;
+}
+
+.footer>.footerCol {
+    margin-right: 45px;
+    font-size: 150%;
+}
+
+.footer>.footerCol>h4 {
+    color: white
+}
+
+.footer>.footerCol>ul>li>a {
+    text-decoration: none;
+    color: black
+    
+}
+
+.footer>.footerCol>h4>a {
+    color: white
+    
+}
+
+.footer>.footerCol>.officeAddressInfo>h3 {
+    color: white
+}
+
+.footer>.footerCol>.customerCareInfo>h4 {
+    color: white
+    
+}
+
+
+/* Chocolateclick Page */
+.imageIconMenu {
+    position: absolute;
+    display: block;
+    z-index: 999;
+    margin: 1%;
+}
+
+
+
+
+.chocolate
+{
+    background-color: #D3002B;
+    height: 50px;    
+}
+
+
+.chocolate>
+{
+    min-height: 100%;
+    
+}
+
+
+.chocolate>.nav>li,
+.chocolate>.nav>li>.nav-link
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 65px;
+    text-align: left;
+    cursor: pointer;
+    padding-top: 6px;
+    position: relative;       
+}
+
+.chocolate>.nav>li>.nav-link:hover
+{
+    color:black;
+    font-size:large;
+    font-weight: 999;
+}
+
+#container 
+{
+   
+    display: flex;
+    min-height: 500px;
+}
+
+#menu
+{
+    width:20%;
+}
+#content 
+{
+    margin-right: 15px;
+    width:80%;
+}
+
+#menu>ul>li 
+{
+    line-height: 250%;
+    background-color:#D3002B;
+    margin-top: 50px;
+    padding-left: 5px;
+    width: 217px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    
+}
+
+
+#menu>ul>li>a:link, #menu>ul>li>a:visited 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 12px;
+
+}
+
+
+#menu>ul>li>a:hover 
+{
+    color:black;
+    font-size:large;
+}
+#menu>ul>li>a:active
+{
+    color:red;
+    font-size:large;
+} 
+#products
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product
+{
+    
+    background-color: transparent;
+    padding:5px;
+    width:23%;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+#content>p 
+{
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 142%;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Arimo', sans-serif;
+    text-indent: 50px;
+    padding:0px 10px;
+    margin-top: 20px;
+}
+
+/* Chocolateclick Page */

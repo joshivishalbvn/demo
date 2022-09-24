@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- slider -->
+    <div id="myslider" class="carousel slide" data-bs-ride="false" ;>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myslider" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myslider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myslider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/menu-icon.png" alt="">
+                <img src="images/Banner-02-desktop.webp" class="d-block w-100" alt="https://www.picsum.photos/1200/300">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>First slide label</h3>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Havmor_Tub-Dangler-Website-Banners.gif" class="d-block w-100"
+                    alt="https://www.picsum.photos/1200/300">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Havmor-Shotties-Website-banner (1).gif" class="d-block w-100"
+                    alt="https://www.picsum.photos/1200/300">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.picsum.photos/1200/300" class="d-block w-100"
+                    alt="https://www.picsum.photos/1200/300">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.picsum.photos/1200/300" class="d-block w-100"
+                    alt="https://www.picsum.photos/1200/300">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myslider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myslider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- slider -->
+
+
+
+
+
+
+
+
+    <div property="schema:text d-flex">
+        <div class="productContent ">
+            <section class="filterSec">
+                <div class="flavour">
+                    Select Flavour
+                </div>
+                <div class="occationMobile">
+                    All Flavours
+                </div>
+                <div class="occasion ">
+                    <ul>
+                        <li>
+                            <input type="radio" name="radio" id="radio1">
+                            <label for="radio1"><span></span>All<br><span class="leftFix">&nbsp;</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="radio" id="radio2">
+                            <label for="radio2"><span></span>Me<br><span class="leftFix">time</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="radio" id="radio3">
+                            <label for="radio3"><span></span>Get<br><span class="no-left">together</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="radio" id="radio4">
+                            <label for="radio4"><span></span>Party<br><span class="leftFix">time</span></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="radio" id="radio5">
+                            <label for="radio5"><span></span>Save<br><span class="leftFix">big</span></label>
+                        </li>
+                    </ul>
+                    <div class="close-div">
+                        Close
+                    </div>
+                </div>
+            </section>
+            <section class="filterDetail">
+                <div class="flavourDetail openFlavour">
+                    <ul>
+                        <li>
+                            <input type="radio" name="filter" id="filter1">
+                            <label for="filter1"><span></span>All</label>
+                        </li>
+                        <li onclick="window.location='/products/chocolate'">
+                            <input type="radio" name="filter" id="filter2">
+                            <label for="filter2"><span></span>Chocolate</label>
+                        </li>
+                        <li onclick="window.location='/products/dry-fruits'">
+                            <input type="radio" name="filter" id="filter3">
+                            <label for="filter3"><span></span>Dry Fruits</label>
+                        </li>
+                        <li onclick="window.location='/products/indian-traditional'">
+                            <input type="radio" name="filter" id="filter4">
+                            <label for="filter4"><span></span>Indian Traditional</label>
+                        </li>
+                        <li onclick="window.location='/products/fruits'">
+                            <input type="radio" name="filter" id="filter5">
+                            <label for="filter5"><span></span>Fruits</label>
+                        </li>
+                        <li onclick="window.location='/products/international-others'">
+                            <input type="radio" name="filter" id="filter6">
+                            <label for="filter6"><span></span>International</label>
+                        </li>
+                    </ul>
+                    <div class="close-div">
+                        Close
+                    </div>
+                </div>
+                <div class="ocationDetail">
+                    <div class="icecreamRow">
+                        <div class="views-element-container">
+                            <div
+                                class="js-view-dom-id-1084575c024484c4c4ef9f40ac1fba2d60590f635cdbc1db90c6ddcaad9bf028">
+
+
+
+
+
+                                <form class="views-exposed-form"
+                                    data-drupal-selector="views-exposed-form-products-block-2" action="/all-products"
+                                    method="get" id="views-exposed-form-products-block-2" accept-charset="UTF-8"
+                                    style="display: none;" novalidate="novalidate">
+                                    <div
+                                        class="js-form-item form-item js-form-type-textfield form-item-key js-form-item-key">
+                                        <label for="edit-key--2">Title</label>
+                                        <input data-drupal-selector="edit-key"
+                                            data-msg-maxlength="This field field has a maximum length of 128."
+                                            type="text" id="edit-key--2" name="key" value="" size="30" maxlength="128"
+                                            class="form-text">
+
+                                    </div>
+                                    <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper"
+                                        id="edit-actions--2"><input data-drupal-selector="edit-submit-products-2"
+                                            type="submit" id="edit-submit-products--2" value="Apply"
+                                            class="button js-form-submit form-submit">
+                                    </div>
+
+
+                                </form>
+
+
+
+                                <div data-drupal-views-infinite-scroll-content-wrapper=""
+                                    class="views-infinite-scroll-content-wrapper clearfix">
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/choco-crunch-shotties"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Choco-Crunch-With-BG.webp?itok=c0WMU9ex"></a>
+                                        </div>
+                                        <p><a href="/chocolate/choco-crunch-shotties" hreflang="en">Choco Crunch
+                                                Shotties</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/dark-chocolate-shotties"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Dark-Chocolate-With-BG.webp?itok=vBGU40AS"></a>
+                                        </div>
+                                        <p><a href="/chocolate/dark-chocolate-shotties" hreflang="en">Dark Chocolate
+                                                Shotties</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/indian-traditional/taj-mahal"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Taj-Mahal-with-BG.webp?itok=DolPjwP8"></a>
+                                        </div>
+                                        <p><a href="/indian-traditional/taj-mahal" hreflang="en">Taj Mahal</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/dry-fruits/maple-walnut-praline"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Maple-Walnut-Praline-With-BG.webp?itok=1iLzeDDI"></a>
+                                        </div>
+                                        <p><a href="/dry-fruits/maple-walnut-praline" hreflang="en">Maple Walnut
+                                                Praline</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/dry-fruits/cranberry-nuts"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Cranberry-and-nuts-With-BG.webp?itok=Fy2Xqac6"></a>
+                                        </div>
+                                        <p><a href="/dry-fruits/cranberry-nuts" hreflang="en">Rolled Oats, Cranberry
+                                                &amp; Nuts</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/product/butter-scotch1"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Butter-Sotch-with-BG.webp?itok=OdVRTaFZ"></a>
+                                        </div>
+                                        <p><a href="/product/butter-scotch1" hreflang="en">Premium Butter Scotch</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/american-mud-cake"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/AMerican-Mud-Cake-With-BG.webp?itok=bBzxatds"></a>
+                                        </div>
+                                        <p><a href="/chocolate/american-mud-cake" hreflang="en">American Mud Cake</a>
+                                        </p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/cream-oreo"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Cream%20Oreo.jpg?itok=XtS6qPZO"></a>
+                                        </div>
+                                        <p><a href="/chocolate/cream-oreo" hreflang="en">Cream Oreo</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/chocolate-overload"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Chocolate%20Overload.jpg?itok=GcQmNtod"></a>
+                                        </div>
+                                        <p><a href="/chocolate/chocolate-overload" hreflang="en">Chocolate Overload</a>
+                                        </p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/fruits/berry-magic"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Berry%20Magic.jpg?itok=lgJAwQx6"></a>
+                                        </div>
+                                        <p><a href="/fruits/berry-magic" hreflang="en">Berry Magic</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/dry-fruits/american-nut-fun"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/American%20Nut%20Fun.jpg?itok=lgj1w2xo"></a>
+                                        </div>
+                                        <p><a href="/dry-fruits/american-nut-fun" hreflang="en">American Nut Fun</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/fruits/strawberry-stunner"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Strawberry%20Stunner.jpg?itok=NJHwJOUq"></a>
+                                        </div>
+                                        <p><a href="/fruits/strawberry-stunner" hreflang="en">Strawberry Stunner</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/sizzling-brownie-volcano"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Sizzling%20Brownie%20Volcano.jpg?itok=Qv3BPN2m"></a>
+                                        </div>
+                                        <p><a href="/chocolate/sizzling-brownie-volcano" hreflang="en">Sizzling Brownie
+                                                Volcano</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/seven-chocolate1"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Seven%20Chocolate.jpg?itok=EJGJbw6-"></a>
+                                        </div>
+                                        <p><a href="/chocolate/seven-chocolate1" hreflang="en">Seven Chocolate</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/fruits/rainbow-cassatta"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Rainbow%20Cassata.jpg?itok=CJB7d9yZ"></a>
+                                        </div>
+                                        <p><a href="/fruits/rainbow-cassatta" hreflang="en">Rainbow Cassatta</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/oreo-overload1"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Oreo%20Overload.jpg?itok=UgGoJGmt"></a>
+                                        </div>
+                                        <p><a href="/chocolate/oreo-overload1" hreflang="en">Oreo Overload</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/fruits/fruit-overload"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Fruit%20Overload.jpg?itok=h9BFMWA5"></a>
+                                        </div>
+                                        <p><a href="/fruits/fruit-overload" hreflang="en">Fruit Overload</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/choco-carnival"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Choco%20Carnival.jpg?itok=q-lYWQIi"></a>
+                                        </div>
+                                        <p><a href="/chocolate/choco-carnival" hreflang="en">Choco Carnival</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/belgian-sensation"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Belgian%20Sensation.jpg?itok=7ugMysRt"></a>
+                                        </div>
+                                        <p><a href="/chocolate/belgian-sensation" hreflang="en">Belgian Sensation</a>
+                                        </p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/fruits/mango-twist-sundae"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Mango%20Twist.jpg?itok=FAmTQmPT"></a>
+                                        </div>
+                                        <p><a href="/fruits/mango-twist-sundae" hreflang="en">Mango Twist Sundae</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/fruits/fruity-affair-sundae"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Fruity%20Affair.jpg?itok=AFVDpKC_"></a>
+                                        </div>
+                                        <p><a href="/fruits/fruity-affair-sundae" hreflang="en">Fruity Affair Sundae</a>
+                                        </p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/ferrero-blast-sundae"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Ferrero%20Blast.jpg?itok=_pem3B2b"></a>
+                                        </div>
+                                        <p><a href="/chocolate/ferrero-blast-sundae" hreflang="en">Ferrero Blast
+                                                Sundae</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/cookie-brownie-sundae"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Cookie%20Brownie.jpg?itok=uG7bf5G-"></a>
+                                        </div>
+                                        <p><a href="/chocolate/cookie-brownie-sundae" hreflang="en">Cookie Brownie
+                                                Sundae</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                    <div class="icereamWrapp">
+                                        <div class="productWrapp">
+                                            <a href="https://www.havmor.com/chocolate/chocolate-murder-sundae"> <img
+                                                    src="/sites/default/files/styles/380x273/public/products/Chocolate%20Murder.jpg?itok=cX3O4b-8"></a>
+                                        </div>
+                                        <p><a href="/chocolate/chocolate-murder-sundae" hreflang="en">Chocolate Murder
+                                                Sundae</a></p>
+                                        <p></p>
+                                        <p>
+                                            <a class="iceCreamBuy" tabindex="0">BUY NOW</a>
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <ul class="js-pager__items pager" data-drupal-views-infinite-scroll-pager="">
+                                    <li class="pager__item loadmoreBtn">
+                                        <a class="button" href="?key=&amp;page=2" title="Go to next page"
+                                            rel="next"><img src="/themes/havmornew/images/loan-more.webp">
+                                            <p>LOAD MORE</p>
+                                        </a>
+
+                                    </li>
+                                </ul>
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        <section class="buyNowPopUp" style="display:none;">
+            <div class="PopUpwrapp">
+                <h2>ENTER CITY</h2>
+                <!--<input type="text" name="city">-->
+                <select name="city" class="form-select" aria-required="true" id="city">
+                    <option value="" selected="selected">Select City</option>
+                    <option value="Aligarh">Aligarh</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Agra">Agra</option>
+                    <option value="Amritsar">Amritsar</option>
+                    <option value="Aurangabad">Aurangabad</option>
+                    <option value="Bhopal">Bhopal</option>
+                    <option value="Bhubaneswar">Bhubaneswar</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Coimbatore">Coimbatore</option>
+                    <option value="Dhanbad">Dhanbad</option>
+                    <option value="Dharwad">Dharwad</option>
+                    <option value="Faridabad">Faridabad</option>
+                    <option value="Ghaziabad">Ghaziabad</option>
+                    <option value="Gurgaon">Gurgaon</option>
+                    <option value="Gwalior">Gwalior</option>
+                    <option value="Hubli">Hubli</option>
+                    <option value="Indore">Indore</option>
+                    <option value="Jabalpur">Jabalpur</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Jodhpur">Jodhpur</option>
+                    <option value="Kanpur">Kanpur</option>
+                    <option value="Kota">Kota</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Ludhiana">Ludhiana</option>
+                    <option value="Madurai">Madurai</option>
+                    <option value="Meerut">Meerut</option>
+                    <option value="Moradabad">Moradabad</option>
+                    <option value="Mysore">Mysore</option>
+                    <option value="Nagpur">Nagpur</option>
+                    <option value="Nashik">Nashik</option>
+                    <option value="Patna">Patna</option>
+                    <option value="Prayagraj">Prayagraj</option>
+                    <option value="Raipur">Raipur</option>
+                    <option value="Rajkot">Rajkot</option>
+                    <option value="Ranchi">Ranchi</option>
+                    <option value="Rangareddy">Rangareddy</option>
+                    <option value="Solapur">Solapur</option>
+                    <option value="Srinagar">Srinagar</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Vadodara">Vadodara</option>
+                    <option value="Varanasi">Varanasi</option>
+                    <option value="Vijayawada">Vijayawada</option>
+                    <option value="Visakhapatnam">Visakhapatnam</option>
+                    <option value="Thane">Thane</option>
+                    <option value="Pimpri-Chinwad">Pimpri-Chinwad</option>
+                    <option value="Jalandar">Jalandar</option>
+                    <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                    <option value="Noida">Noida</option>
+                    <option value="Ajmer">Ajmer</option>
+                    <option value="Jamnagar">Jamnagar</option>
+                </select>
+
+                <p>Your Order through Following options.</p>
+                <div class="buyToApp">
+                    <ul>
+                        <li><img src="/themes/havmornew/images/zomato.webp"></li>
+                        <li><img src="/themes/havmornew/images/swiggy.webp"></li>
+                        <!--<li><a href=""><img src="/themes/havmornew/images/big-basket.webp"></a></li>
+                                 <li><a href=""><img src="/themes/havmornew/images/milk-basket.webp"></a></li>-->
+                    </ul>
+                </div>
+                <a href="#" class="closePopup"><img src="/themes/havmornew/images/close-popup.webp"></a>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+    <div class="contact">
+        <div class="col-12 d-flex bg-danger">
+            <div class="footerCol col-3">
+                <h4>KNOW US BETTER</h4>
+                <ul>
+                    <li><a href="https://www.havmor.com/about-us">About Havmor </a></li>
+                    <li><a href="https://www.havmor.com/awards">Awards</a></li>
+                    <!--<li><a href="https://www.havmor.com/sites/default/files/2021-11/CSR%20Policy%2019.8.2021.pdf" target="_blank">CSR</a></li>-->
+                    <li><a href="https://www.havmor.com/sites/default/files/2021-11/Havmor_CSR_Policy_Final.pdf"
+                            target="_blank">CSR</a></li>
+                    <li><a href="https://www.havmor.com/career">Career</a></li>
+                    <li><a href="https://www.havmor.com/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="https://www.havmor.com/faq">FAQ</a></li>
+                    <li><a href="https://www.havmor.com/terms-of-use">Terms of Use</a></li>
+                    <li><a href="https://www.havmor.com/sites/default/files/2021-11/annual-report-2020-21.pdf"
+                            target="_blank">Annual Return</a></li>
+
+                </ul>
+
+            </div>
+            <div class="footerCol col-3">
+                <h4>SURPRISE ME</h4>
+                <ul>
+                    <li><a href="https://www.havmor.com/#surpriseme">Party Time</a></li>
+                    <!--<li><a href="javascript:;">Offers</a></li>-->
+                    <li><a href="https://www.havmor.com/thecoolestsummerjob">Contests</a></li>
+                    <!--li><a href="https://havmor.com/thecoolestsummerjob/">Contests</a></li-->
+
+
+                </ul>
+                <h5><a href="https://www.havmor.com/leadership">Meet Our Showrunners</a></h5>
+                <!--<h5><a href="https://www.havmor.com/contact-us">Contact Us</a></h5>-->
+                <h5><a href="https://www.havmor.com/store-locator">We're Close By</a></h5>
+
+                <!--<h5><a href="javascript:;">BLOG</a></h5>-->
+                <!--<h5><a href="javascript:;">WE'RE CLOSE BY</a></h5>-->
+
+            </div>
+            <div class="footerCol col-3">
+                <h4><a href="https://www.havmor.com/contact-us">REACH OUT TO US</a></h4>
+                <ul>
+                    <li><a href="https://www.havmor.com/franchise">Become Franchiser</a></li>
+                    <!--<li><a href="javascript:;">Be Partner</a></li>-->
+
+                </ul>
+
+            </div>
+            <div class="footerCol2 col-3 ">
+                <div class="officeAddressInfo">
+                    <h3>Office Address</h3>
+                    <p>2nd floor, Commerce House 4, <br>
+                        besides shell petrol pump, Prahladnagar<br>
+                        Anandnagar road, Ahmedabad-380015,<br>
+                        Corporate office : 079 4020 9000</p>
+                </div>
+
+                <div class="customerCareInfo">
+                    <h4>Customer Care</h4>
+                    <p><a href="tel:02242460606">022 4246 0606</a></p>
+                    <ul class="footerSocialIconList">
+                        <li>
+                            <a href="https://www.facebook.com/HavmorIcecreams" target="_blank"
+                                class="socialIcon fbIcon"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/HavmorIceCreams" target="_blank"
+                                class="socialIcon twitterIcon"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/havmoricecreams/" target="_blank"
+                                class="socialIcon instaIcon"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/HAVMORICECREAM" target="_blank"
+                                class="socialIcon youtubeIcon"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/havmor-ice-cream-ltd/" target="_blank"
+                                class="socialIcon linkedinIcon"></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <script src="https://kit.fontawesome.com/20994dd270.js" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
